@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Registrasi Acoount</title>
+  <title>Forgot Password</title>
   <style>
     /* Gaya tampilan halaman registrasi */
     body {
@@ -31,7 +31,7 @@
     }
 
     form {
-      margin-top: 20px;
+      margin-top: 50px;
     }
 
     input[type="text"],
@@ -71,20 +71,16 @@
 </head>
 <body>
   <div class="container">
-    <h1>Registrasi Account</h1>
-    <h2>Buat akun untuk melihat berbagai katalog baru dari kami Rising King</h2>
-    <div class="google-button">
-        <button type="submit"><a href="https://accounts.google.com/v3/signin/identifier?dsh=S302335514:1684423559079735&authuser=0&continue=https://myaccount.google.com/&ec=GAlAwAE&hl=in&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession">Masuk dengan Akun Google</a></button>
-      </div>
-      <p>---------- ATAU ----------</p>
+    <h1>Kesulitan Login?</h1>
+    <h2>Masukan Email Anda, lalu buatkan password baru</h2>
     <form action="/path/to/register" method="POST" id="registration-form">
-      <input type="text" name="nama_pengguna" placeholder="Nama Pengguna" required>
-      <input type="email" name="email" placeholder="Email" required>
-      <input type="text" name="fa-phone" placeholder="+62..." required>
-      <input type="password" name="kata_sandi" placeholder="Kata Sandi" required>
-      <button type="submit">Daftar</button>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="text" name="nama_pengguna" placeholder="kata sandi baru" required>
+        <input type="text" name="fa-phone" placeholder="konfirmasi kata sandi" required>
+      <button type="submit">Reset</button>
     </form>
-    <p>Sudah punya akun? <a href="index.html">Masuk</a></p>
+    <p>---------- ATAU ----------</p>
+    <p><a href="register.html">Buat Akun Baru</a></p>
     <img src="assets\images\logorisingking.png" alt="logo"></img>
   </div>
  
