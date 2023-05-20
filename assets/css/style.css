@@ -54,10 +54,6 @@ header::after {
   margin-right: 8px;
 }
 
-.login-form  {
-  background-color: #ec4d4d;
-}
-
 .navbar-brand h1 {
   margin: 0;
 }
@@ -723,7 +719,7 @@ form button.btn-primary:hover {
     1 - Footer
 ------------------------------------*/
 footer {
-  background: url(../images/footer-bg.png) center center/cover no-repeat #26264b;
+  background: url(../images/Red\ and\ Blue\ Abstract\ Background\ Image.jpg) center center/cover no-repeat #26264b;
 }
 
 /*-----------------------------------
@@ -895,11 +891,11 @@ span {
 .foot-note {
   padding: 35px 0;
   background-color: #ee1515;
-  color: #26264b;
+  color: #fbfbfc;
 }
 
 .foot-note a {
-  color: #26264b;
+  color: #f5f5f5;
 }
 
 .foot-note a:last-child {
