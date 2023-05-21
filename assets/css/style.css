@@ -87,7 +87,8 @@ header::after {
 }
 
 .navbar-brand img {
-  width: 135px;
+  width: 120px;
+  margin-top: -50px;
 }
 
 .navbar-collapse .search-form input[type="text"] {
@@ -214,7 +215,7 @@ form button.btn-primary:hover {
   height: 100%;
   -webkit-clip-path: polygon(0 0, 100% 100%, 100% 0);
           clip-path: polygon(0 0, 100% 100%, 100% 0);
-  background-color: rgba(191, 123, 196, 0.1);
+  background-color: rgba(210, 75, 220, 0.1);
   position: absolute;
   top: 0;
   left: 0;
